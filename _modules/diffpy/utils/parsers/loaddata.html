@@ -47,6 +47,7 @@
               <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../../../license.html">License</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../../release.html">Release Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../utilities/utilities.html">Utilities</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../../examples/examples.html">Examples</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../../api/diffpy.utils.html">Package API</a></li>
 </ul>
@@ -108,13 +109,12 @@
 <span class="sd">        Name of the file we want to load data from.</span>
 <span class="sd">    minrows: int</span>
 <span class="sd">        Minimum number of rows in the first data block. All rows must have the same number of floating</span>
-<span class="sd">         point values.</span>
+<span class="sd">        point values.</span>
 <span class="sd">    headers: bool</span>
-<span class="sd">     when False (defualt), the function returns a numpy array of the data in the data block.</span>
+<span class="sd">        when False (defualt), the function returns a numpy array of the data in the data block.</span>
 <span class="sd">        When True, the function instead returns a dictionary of parameters and their corresponding</span>
-<span class="sd">         values parsed from</span>
-<span class="sd">        header (information prior the data block). See hdel and hignore for options to help with parsing header</span>
-<span class="sd">        information.</span>
+<span class="sd">        values parsed from header (information prior the data block). See hdel and hignore for options</span>
+<span class="sd">        to help with parsing header information.</span>
 <span class="sd">    hdel: str</span>
 <span class="sd">        (Only used when headers enabled.) Delimiter for parsing header information (default &#39;=&#39;). e.g. using</span>
 <span class="sd">        default hdel, the line &#39;parameter = p_value&#39; is put into the dictionary as {parameter: p_value}.</span>
