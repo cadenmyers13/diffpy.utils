@@ -44,6 +44,14 @@ diffpy.utils.tools module
     :undoc-members:
     :show-inheritance:
 
+diffpy.utils._deprecator module
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. automodule:: diffpy.utils._deprecator
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
 diffpy.utils.diffraction_objects module
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
